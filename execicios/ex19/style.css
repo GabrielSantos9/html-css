@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+    Tudo em HTML é ID em CSS será #            (SÓ PODE 1 ELEMENTO)
+    Tudo em HTML é CLASS em CSS será .         (VÁRIOS ELEMENTOS)
+
+*/
+
+body {
+    background-image: linear-gradient(to bottom, #05C7F2, #05AFF2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #0468bf;
+}
+
+#principal {
+    background-color: rgb(2, 51, 115);
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    color: #05aff2;
+}
+
+.basico {
+    color: rgba(113, 169, 30, 0.788);
+}
+
+.intermediario {
+    color: rgba(255, 255, 0, 0.788);
+}
+
+.avancado {
+    color: rgba(207, 39, 39, 0.788);
+}
+
+.pnegrito {
+    color: black;
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: rgba(191, 191, 67, 0.624);
+}

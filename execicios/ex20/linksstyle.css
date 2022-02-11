@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 
+    #    = ID
+    .    = CLASS
+    :    = PSEUDO-CLASS
+    ::   = PSEUDO-ELEMENT
+    >    = CLILDREN (FILHO)
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: rgb(225, 140, 140);
+}
+
+.especial::before {
+    content: '⇒ ';
+    color: darkgray;
+}
+
+.especial::after {
+    content: ' ⇐';
+    color: darkgray;
+}
