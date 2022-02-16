@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1%;
+    background-color: gray;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+tbody > tr:hover {
+    transition: 0.3s ease-in-out;
+    background-color: rgb(164, 255, 205);
+}
+
+td.num {
+    text-align: right;
+}
+
+th.pop {
+    width: 100px;
+}
+
